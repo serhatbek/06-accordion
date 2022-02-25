@@ -27,6 +27,8 @@ main {
   align-items: center;
   justify-content: space-evenly;
   overflow: hidden;
+  padding: 0 2rem;
+  text-align: center;
 }
 
 .accordion {
@@ -46,6 +48,8 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
 }
 
 .accordion__item.active .accordion__item--header {
@@ -57,7 +61,9 @@ main {
 }
 
 .accordion__item.active .accordion__item--body {
-  display: block;
+  height: auto;
+  padding: 1.6rem;
+  line-height: 2rem;
 }
 
 .accordion__item--header p {
@@ -88,10 +94,12 @@ main {
 .accordion__item--header .circle .bxs-chevron-down {
   font-size: 2rem;
   font-weight: 700;
+  transition: all 0.2s ease-out;
 }
 
 .accordion__item--body {
+  overflow: hidden;
+  height: 0;
   background-color: #202b2f;
-  padding: 1.6rem;
-  display: none;
+  transition: all 0.2s ease-out;
 }
