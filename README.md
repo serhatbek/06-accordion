@@ -22,4 +22,4 @@ Responsive accordion is a small Vanilla JS project to get better at JavaScript D
 
 ## Live
 
-You can check the project here. [▶ Responsive Sidebar](https://res-accordion.netlify.app).
+You can check the project here. [▶ Responsive Accordion Live](https://res-accordion.netlify.app).
